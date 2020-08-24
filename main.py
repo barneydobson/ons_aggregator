@@ -12,7 +12,7 @@ from shapely.geometry import Point
 #Addresses
 data_root = os.path.join("C:\\","Users","bdobson","Documents","data","population_data")
 
-shape_fn = os.path.join("C:\\","Users","bdobson","OneDrive - Imperial College London","maps","traced_maps","thames_water_wastewater_zones_traced.shp")
+shape_fn = os.path.join("example_shape.shp")
 pop_fn = os.path.join(data_root, "household_size.csv") # from https://www.nomisweb.co.uk/census/2011/qs406uk
 loc_fn = os.path.join(data_root, "NSPL_NOV_2019_UK.csv") # https://geoportal.statistics.gov.uk/datasets/national-statistics-postcode-lookup-november-2019
 oa_fn = os.path.join(data_root, "oa_2_postcode.csv") # https://geoportal.statistics.gov.uk/datasets/80628f9289574ba4b39a76ca7830b7e9_0/data
